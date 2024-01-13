@@ -1,0 +1,126 @@
+{
+  "allocatedRenderTime": 10,
+  "bounds": [-0.5, 0.5, -0.5, 0.5, -0.5, 0.5],
+  "mapper": {
+    "bounds": [-0.5, 0.5, -0.5, 0.5, -0.5, 0.5],
+    "center": [0, 0],
+    "classHierarchy": ["vtkObject", "vtkMapper"],
+    "colorMapColors": {
+      "classHierarchy": ["vtkObject", "vtkDataArray"],
+      "dataType": "Uint8Array",
+      "name": "temp",
+      "numberOfComponents": 4,
+      "type": "vtkDataArray",
+      "values": [0, 255, 0, 255, 0, 96, 255, 255, 255, 204, 0, 255, 254, 255, 0, 255, 0, 255, 186, 255, 0, 255, 170, 255, 0, 255, 194, 255, 178, 255, 0, 255, 0, 116, 255, 255, 0, 36, 255, 255, 222, 255, 0, 255, 0, 255, 10, 255, 255, 64, 0, 255, 182, 255, 0, 255, 0, 255, 218, 255, 255, 244, 0, 255, 0, 255, 238, 255, 0, 188, 255, 255, 0, 255, 6, 255, 162, 255, 0, 255, 0, 36, 255, 255, 230, 255, 0, 255, 0, 164, 255, 255, 255, 104, 0, 255, 198, 255, 0, 255],
+      "vtkClass": "vtkDataArray"
+    },
+    "colorMode": 0,
+    "fieldDataTupleId": -1,
+    "forceCompileOnly": 0,
+    "inputArrayToProcess": [],
+    "inputConnection": [null],
+    "inputData": [{
+      "cellData": {
+        "activeGlobalIds": -1,
+        "activeNormals": -1,
+        "activePedigreeIds": -1,
+        "activeScalars": -1,
+        "activeTCoords": -1,
+        "activeTensors": -1,
+        "activeVectors": -1,
+        "arrays": [{
+          "data": {
+            "classHierarchy": ["vtkObject", "vtkDataArray"],
+            "dataType": "Float32Array",
+            "name": "temp",
+            "numberOfComponents": 1,
+            "values": [0, 1],
+            "vtkClass": "vtkDataArray"
+          }
+        }],
+        "classHierarchy": ["vtkObject", "vtkFieldData", "vtkDataSetAttributes"],
+        "copyFieldFlags": [],
+        "doCopyAllOff": false,
+        "doCopyAllOn": true,
+        "vtkClass": "vtkDataSetAttributes"
+      },
+      "pointData": {
+        "activeGlobalIds": -1,
+        "activeNormals": -1,
+        "activePedigreeIds": -1,
+        "activeScalars": 0,
+        "activeTCoords": -1,
+        "activeTensors": -1,
+        "activeVectors": -1,
+        "arrays": [{
+          "data": {
+            "vtkClass": "vtkDataArray",
+            "name": "pointScalars",
+            "dataType": "Float32Array",
+            "values": [0, 1, 0, 1]
+          }
+        }],
+        "classHierarchy": ["vtkObject", "vtkFieldData", "vtkDataSetAttributes"],
+        "copyFieldFlags": [],
+        "doCopyAllOff": false,
+        "doCopyAllOn": true,
+        "mtime": 553,
+        "vtkClass": "vtkDataSetAttributes"
+      },
+      "points": {
+        "dataType": "Float32Array",
+        "numberOfComponents": 3,
+        "values": [
+          0, 0, 0,
+          0.5, 0, 0,
+          0.5, 1, 0,
+          0, 1, 0
+        ],
+        "vtkClass": "vtkPoints"
+      },
+      "polys": {
+        "dataType": "Uint16Array",
+        "numberOfComponents": 1,
+        "values": [
+          3, 0, 1, 2,
+          3, 0, 2, 3
+        ],
+        "vtkClass": "vtkCellArray"
+      },
+      "vtkClass": "vtkPolyData"
+    }],
+    "interpolateScalarsBeforeMapping": true,
+    "lookupTable": {
+      "aboveRangeColor": [1, 1, 1, 1],
+      "alpha": 1,
+      "alphaRange": [1, 1],
+      "belowRangeColor": [0, 0, 0, 1],
+      "buildTime": {
+        "classHierarchy": ["vtkObject"],
+        "mtime": 61,
+        "vtkClass": "vtkObject"
+      },
+      "classHierarchy": ["vtkObject", "vtkLookupTable"],
+      "hueRange": [0, 1],
+      "mappingRange": [0, 1],
+      "nanColor": [0.5, 0, 0, 1],
+      "numberOfColors": 256,
+      "opaqueFlagBuildTime": {
+        "classHierarchy": ["vtkObject"],
+        "mtime": 60,
+        "vtkClass": "vtkObject"
+      },
+      "saturationRange": [1, 1],
+      "useAboveRangeColor": false,
+      "useBelowRangeColor": false,
+      "valueRange": [0, 1],
+      "vectorComponent": 0,
+      "vectorMode": 1,
+      "vectorSize": -1,
+      "vtkClass": "vtkLookupTable"
+    },
+    "useLookupTableScalarRange": false,
+    "vtkClass": "vtkMapper"
+  },
+  "vtkClass": "vtkActor"
+}
